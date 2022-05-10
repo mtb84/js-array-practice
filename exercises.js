@@ -5,11 +5,10 @@
 
 // Put your answer below -------------------------
 
-
-
-
-
-
+let newArray = function(str, i) {
+Array.from( i.length)
+}
+//??? figure out
 
 
 
@@ -23,14 +22,10 @@
 
 // Put your answer below -------------------------
 
-
-
-
-
-
-
-
-
+    let rev = function(arr) {
+        let reverseArray = arr.slice().reverse();
+        return reverseArray;
+    };
 
 // -----------------------------------------------
 
@@ -40,14 +35,10 @@
 
 // Put your answer below -------------------------
 
-
-
-
-
-
-
-
-
+let removeFalsy = function (arr) {
+    newArray = arr.filter(Boolean);
+    return newArray;
+}
 
 // -----------------------------------------------
 
@@ -59,14 +50,10 @@
 
 // Put your answer below -------------------------
 
-
-
-
-
-
-
-
-
+let nestedArr = function (arr) {
+    const obj = Object.fromEntries(arr);
+    return obj;
+}
 
 // -----------------------------------------------
 
@@ -77,14 +64,10 @@
 
 // Put your answer below -------------------------
 
-
-
-
-
-
-
-
-
+let removeDups = function(arr){
+    let val1 = [... new Set(arr)];
+    return val1;
+}
 
 // -----------------------------------------------
 
@@ -98,7 +81,14 @@
 
 // Put your answer below -------------------------
 
-
+let identicalValues = function (arr1, arr2) {
+if(arr1.length === arr2.length) {
+    return arr1.every(Element)  
+        if (arr2.includes(Element)) {
+            return true;
+        }
+    }return false;;
+}
 
 
 
