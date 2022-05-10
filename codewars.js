@@ -23,8 +23,14 @@
 // Get the mean of an array
 // https://www.codewars.com/kata/563e320cee5dddcf77000158/train/javascript
 
-
-
+function getAverage(marks){
+    let sum = 0
+    for (i = 0; i < marks.length; i++) {
+      sum += marks[i];
+    };
+     let avg = Math.floor(sum/marks.length);
+     return avg;
+   }
 
 // #5
 // THE SOUL OF WIT: REVERSE AN ARRAY
