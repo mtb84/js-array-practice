@@ -5,13 +5,13 @@
 
 // Put your answer below -------------------------
 
-let newArray = function(str, i) {
-Array.from( i.length)
+const makeArray = function(str, i) {
+    return Array.from( {
+        length: i
+    }, function () {
+        return str;
+    });
 }
-//??? figure out
-
-
-
 
 // -----------------------------------------------
 
@@ -55,6 +55,8 @@ let nestedArr = function (arr) {
     return obj;
 }
 
+// for of one level deep
+
 // -----------------------------------------------
 
 // ---------------------
@@ -89,13 +91,6 @@ if(arr1.length === arr2.length) {
         }
     }return false;;
 }
-
-
-
-
-
-
-
 
 // -----------------------------------------------
 
